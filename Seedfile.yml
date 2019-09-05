@@ -1,0 +1,8 @@
+name: golang
+parameters:
+  - variable: APPNAME
+    description: "The name of the application"
+  - variable: PRIVATE_LIB
+    description: "A private library inside your application"
+  - variable: PUBLIC_LIB
+    description: "A public library others can use"
